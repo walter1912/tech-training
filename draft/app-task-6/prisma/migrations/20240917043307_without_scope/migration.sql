@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "QRCode" ADD COLUMN "customPrice" INTEGER;
+ALTER TABLE "QRCode" ADD COLUMN "customPriceType" TEXT;
+ALTER TABLE "QRCode" ADD COLUMN "name" TEXT;
+ALTER TABLE "QRCode" ADD COLUMN "priority" INTEGER;
+ALTER TABLE "QRCode" ADD COLUMN "status" TEXT;

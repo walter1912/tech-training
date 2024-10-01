@@ -1,0 +1,39 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+/* test scope style Polaris Component */
+.Polaris-Icon {
+  margin-right: 4px;
+  padding: 0;
+}
+.border-bottom {
+  border-bottom: 1px solid var(--p-color-border);
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+
+}
+a:visited,
+:hover,
+:active {
+  text-decoration: none;
+}
+.flex-between-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

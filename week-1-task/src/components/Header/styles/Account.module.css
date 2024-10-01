@@ -1,0 +1,22 @@
+@import '@shopify/polaris-tokens/css/styles.css';
+
+.Account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+    padding: var(--p-space-100) var(--p-space-150);
+}
+
+.name {
+    font-weight: var(--p-font-weight-semibold);
+}
+
+.description {
+    
+}
+

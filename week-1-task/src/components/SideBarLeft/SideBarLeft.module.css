@@ -1,0 +1,25 @@
+@import '@shopify/polaris-tokens/css/styles.css';
+
+
+.SideBarLeft {
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--p-color-bg-surface);
+    border-top: 1px solid var(--p-color-border);
+    border-right: 1px solid var(--p-color-border);
+}
+.Link  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-size: var(--p-font-size-500);
+    padding: 16px 0 16px 20px;
+    margin: 0;
+}
+.Link svg {
+   scale: 1.6;
+}
+.infor {
+    padding: 8px 20px;
+}

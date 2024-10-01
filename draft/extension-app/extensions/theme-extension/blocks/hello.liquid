@@ -1,0 +1,19 @@
+<button id="task6-part2">Click here to say hello</button>
+
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Hello! this application is written ThaiHB</p>
+    <p>{{ app.metafields.secret_keys.api_key_1 }}</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hello Dev",
+  "target": "section",
+  "javascript": "hello.js",
+  "stylesheet": "hello.css"
+}
+{% endschema %}

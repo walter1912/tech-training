@@ -1,0 +1,14 @@
+@import '@shopify/polaris-tokens/css/styles.css';
+
+
+.Layout {
+    width: 100vw;
+    padding: var(--p-space-600);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
